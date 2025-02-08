@@ -3,9 +3,9 @@
 
 print('Digite sua nota:')
 nota = input()
-nota = int(nota)
+nota = float(nota)
 
-if nota > 5:
+if nota >= 5:
     print('Parabéns, você foi aprovado!')
 else:
     print('Você foi reprovado ):')
@@ -13,6 +13,9 @@ else:
 
 # Missão 2: O Sistema Eleitoral Secreto 📝
 # O grêmio estudantil da escola realiza votações para decidir melhorias e inovações, mas o vírus desativou a verificação de elegibilidade para votar! Sua tarefa é criar um programa que pergunte a idade do usuário e informe se ele pode votar (mínimo: 16 anos).
+
+
+
 # Missão 3: Recuperando o Sistema de Notas 📊
 # As classificações das provas desapareceram! Agora os alunos não sabem se tiraram um não sabem se tiraram um A, B, C, D ou F . Antes que o pânico se espalhe, sua tarefa é criar um programa que peça a nota do aluno e imprima sua classificação conforme a escala:
 
