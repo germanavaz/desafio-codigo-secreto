@@ -66,6 +66,15 @@ print(f"A soma dos dois números é {soma}")
 # Missão 5: Recuperando o Cofre de Segurança 🔒
 # O cofre da biblioteca guarda códigos raros de programação, mas o vírus resetou a senha! Agora, apenas quem souber a combinação correta poderá acessá-lo.
 # Crie um programa que solicite ao usuário uma senha e verifique se ela está correta. A senha correta é "Python123".
+
+print('Digite a senha:')
+senha = str(input())
+
+if senha == 'Python123':
+    print('A senha está correta!')
+else:
+    print('A senha está errada.')
+
 # Missão 6: Reforçando a Segurança e a Contagem do Sistema 💾
 # O vírus está comprometendo o sistema de segurança e a contagem de registros! Para restaurar o funcionamento correto, você precisa reforçar as verificações e garantir que os dados sejam processados corretamente.
 #   Exiba os números de 1 a 10 usando um loop while.
