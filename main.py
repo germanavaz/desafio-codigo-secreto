@@ -105,6 +105,18 @@ print(f'Primeiro nome: {tupla_de_nomes[0]}. Último nome: {tupla_de_nomes[-1]}')
 # Sua tarefa é criar uma função que receba um número e retorne o dobro do seu valor.
 # ➡️ Exemplo: dobro(5)
 # ➡️ Saída: "O dobro de 5 é 10"
+
+print('Digite um número para dobrar:')
+num_para_dobrar = int(input())
+
+
+def dobrar(numero):
+    return numero*2
+
+
+dobro = dobrar(num_para_dobrar)
+print(f'O dobro de {num_para_dobrar} é {dobro}')
+
 # Missão 10: Contando Letras 🔄
 # O sistema precisa contar quantas letras há em um nome.
 # ➡️ Crie uma função que receba um nome e diga quantas letras esse nome tem.
