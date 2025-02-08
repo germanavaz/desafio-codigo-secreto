@@ -1,6 +1,17 @@
-# Missão 1: Restaurando as Regras Escolares 📝 
+# Missão 1: Restaurando as Regras Escolares 📝
 # O vírus apagou os critérios de aprovação dos alunos! Para ajudar o Professor Byte a organizar o sistema, sua tarefa é criar um programa que verifique se um aluno foi aprovado (nota maior ou igual à 5) ou reprovado (nota menor ou igual à 5).
-# Missão 2: O Sistema Eleitoral Secreto 📝 
+
+print('Digite sua nota:')
+nota = input()
+nota = int(nota)
+
+if nota > 5:
+    print('Parabéns, você foi aprovado!')
+else:
+    print('Você foi reprovado ):')
+
+
+# Missão 2: O Sistema Eleitoral Secreto 📝
 # O grêmio estudantil da escola realiza votações para decidir melhorias e inovações, mas o vírus desativou a verificação de elegibilidade para votar! Sua tarefa é criar um programa que pergunte a idade do usuário e informe se ele pode votar (mínimo: 16 anos).
 # Missão 3: Recuperando o Sistema de Notas 📊
 # As classificações das provas desapareceram! Agora os alunos não sabem se tiraram um não sabem se tiraram um A, B, C, D ou F . Antes que o pânico se espalhe, sua tarefa é criar um programa que peça a nota do aluno e imprima sua classificação conforme a escala:
@@ -19,15 +30,15 @@
 # Crie um programa que solicite ao usuário uma senha e verifique se ela está correta. A senha correta é "Python123".
 # Missão 6: Reforçando a Segurança e a Contagem do Sistema 💾
 # O vírus está comprometendo o sistema de segurança e a contagem de registros! Para restaurar o funcionamento correto, você precisa reforçar as verificações e garantir que os dados sejam processados corretamente.
-#   Exiba os números de 1 a 10 usando um loop while.  
+#   Exiba os números de 1 a 10 usando um loop while.
 # Missão 7: Organizando a Lista📋
-# Os números estão misturados e precisam ser organizados! 
-# Para resolver isso, você deve pegar os seguintes números: 8, 3, 10, 1 e 5, armazená-los em uma lista e depois exibi-los em ordem crescente. Isso ajudará a colocar tudo em ordem corretamente!  
+# Os números estão misturados e precisam ser organizados!
+# Para resolver isso, você deve pegar os seguintes números: 8, 3, 10, 1 e 5, armazená-los em uma lista e depois exibi-los em ordem crescente. Isso ajudará a colocar tudo em ordem corretamente!
 # Missão 8: Acessando os Registros de Alunos 🏷️
 # O sistema de alunos está desordenado! Para acessar as informações corretamente, você precisa organizar os dados.
-# Crie uma tupla com os seguintes nomes: Ana, Bruno, Carla, Daniel, Eduardo e exiba o primeiro e o último nome.  
+# Crie uma tupla com os seguintes nomes: Ana, Bruno, Carla, Daniel, Eduardo e exiba o primeiro e o último nome.
 # Missão 9: Calculando Dobro de um Número 🛠️
-# Os alunos precisam de um programa que ajude em cálculos rápidos. 
+# Os alunos precisam de um programa que ajude em cálculos rápidos.
 # Sua tarefa é criar uma função que receba um número e retorne o dobro do seu valor.
 # ➡️ Exemplo: dobro(5)
 # ➡️ Saída: "O dobro de 5 é 10"
