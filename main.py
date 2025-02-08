@@ -49,6 +49,20 @@ else:
 # Missão 4: Restaurando a Identificação de Números ⚖️
 # Os robôs da escola precisam identificar padrões numéricos para resolver cálculos e otimizar os sistemas. No entanto, o vírus bagunçou os algoritmos e agora eles não conseguem mais somar corretamente!
 # Crie um programa que peça dois números ao usuário e exiba a soma deles.
+
+print('Digite o primeiro número:')
+num1 = int(input())
+print('Digite o segundo número:')
+num2 = int(input())
+
+
+def soma_dois_num(numero1, numero2):
+    return numero1 + numero2
+
+
+soma = soma_dois_num(num1, num2)
+print(f"A soma dos dois números é {soma}")
+
 # Missão 5: Recuperando o Cofre de Segurança 🔒
 # O cofre da biblioteca guarda códigos raros de programação, mas o vírus resetou a senha! Agora, apenas quem souber a combinação correta poderá acessá-lo.
 # Crie um programa que solicite ao usuário uma senha e verifique se ela está correta. A senha correta é "Python123".
