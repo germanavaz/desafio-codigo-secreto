@@ -122,3 +122,9 @@ print(f'O dobro de {num_para_dobrar} é {dobro}')
 # ➡️ Crie uma função que receba um nome e diga quantas letras esse nome tem.
 # ➡️ Exemplo: contar_letras("Ana")
 # ➡️ Saída:" O nome Ana tem 3 letras"
+
+print('Digite seu nome:')
+nome = str(input())
+
+tamanho = len(nome)
+print(f'O nome {nome} tem {tamanho} letras.')
