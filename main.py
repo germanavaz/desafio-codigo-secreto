@@ -96,6 +96,10 @@ print(lista_de_numeros)
 # Missão 8: Acessando os Registros de Alunos 🏷️
 # O sistema de alunos está desordenado! Para acessar as informações corretamente, você precisa organizar os dados.
 # Crie uma tupla com os seguintes nomes: Ana, Bruno, Carla, Daniel, Eduardo e exiba o primeiro e o último nome.
+
+tupla_de_nomes = ('Ana', 'Bruno', 'Carla', 'Daniel', 'Eduardo')
+print(f'Primeiro nome: {tupla_de_nomes[0]}. Último nome: {tupla_de_nomes[-1]}')
+
 # Missão 9: Calculando Dobro de um Número 🛠️
 # Os alunos precisam de um programa que ajude em cálculos rápidos.
 # Sua tarefa é criar uma função que receba um número e retorne o dobro do seu valor.
