@@ -78,6 +78,13 @@ else:
 # Missão 6: Reforçando a Segurança e a Contagem do Sistema 💾
 # O vírus está comprometendo o sistema de segurança e a contagem de registros! Para restaurar o funcionamento correto, você precisa reforçar as verificações e garantir que os dados sejam processados corretamente.
 #   Exiba os números de 1 a 10 usando um loop while.
+
+contagem = 1
+
+while contagem < 11:
+    print(contagem)
+    contagem += 1
+
 # Missão 7: Organizando a Lista📋
 # Os números estão misturados e precisam ser organizados!
 # Para resolver isso, você deve pegar os seguintes números: 8, 3, 10, 1 e 5, armazená-los em uma lista e depois exibi-los em ordem crescente. Isso ajudará a colocar tudo em ordem corretamente!
