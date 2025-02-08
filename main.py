@@ -31,6 +31,21 @@ else:
 # - D (60-69) – "Fique atento, você tirou D."
 # - F (menos de 60) – "Estude um pouco mais, você tirou F."
 
+print('Digite sua nota (0-100):')
+nota = int(input())
+
+if nota >= 90:
+    print("Parabéns, você tirou A!")
+elif nota >= 80 and nota < 90:
+    print("Muito bem, você tirou B.")
+elif nota >= 70 and nota < 80:
+    print("Muito bem, você tirou C.")
+elif nota >= 60 and nota < 70:
+    print("Muito bem, você tirou D.")
+else:
+    print('Estude um pouco mais, você tirou F.')
+
+
 # Missão 4: Restaurando a Identificação de Números ⚖️
 # Os robôs da escola precisam identificar padrões numéricos para resolver cálculos e otimizar os sistemas. No entanto, o vírus bagunçou os algoritmos e agora eles não conseguem mais somar corretamente!
 # Crie um programa que peça dois números ao usuário e exiba a soma deles.
